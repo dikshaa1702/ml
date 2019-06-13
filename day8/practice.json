@@ -1,0 +1,26 @@
+{
+	"student": {
+		"student1": {
+			"name": "neha agrawal",
+			"branch": "IT",
+			"college": "PCE",
+			"address": [{
+				"city": "jaipur",
+				"pincode": 302022,
+				"Area": "sitapura"
+			}],
+			"contact_no": 7231972592
+		},
+		"student2": {
+			"name": "sneha agrawal",
+			"branch": "IT",
+			"college": "PCE",
+			"address": [{
+				"city": "jaipur",
+				"pincode": 302022,
+				"Area": "sitapura"
+			}],
+			"contact_no": 7231972592
+		}
+	}
+}

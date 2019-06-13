@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 14 11:16:25 2019
+
+@author: DiPu
+"""
+{
+	"teacher": {
+		"teacher1": {
+			"name": [{
+				"first name": "sita ",
+				"last name": "gupta"
+			}],
+			"photo": "hp/user/a.jpg",
+			"department": "IT",
+			"intrest area": [{
+				"A": "CN ",
+				"B": "OS",
+				"c": "ATOS "
+			}],
+			"Contact details": {
+				"no": 13234455465,
+				"email id": "eearh@gegr",
+				"email id1": "dwgA@dffs"
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+}
