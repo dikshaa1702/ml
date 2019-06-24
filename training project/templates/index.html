@@ -1,0 +1,42 @@
+{% block code %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WalMart | Predict the World With Us</title>
+
+	<!-- css link -->
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+
+	<!-- bootstrap cdn link -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<!-- best viewed when you're online, so keep yourself online garib -->
+
+	<div class="row wrapper">
+		<div class="col-md-6 proj-brief">
+			<!-- <h1 class="proj-heading">walmart</h1> -->
+			<center><img src="static/abc.png"></center>
+			<p>WalMart Weekly Sales Predictor. </p>
+		</div>
+		<div class="col-md-6 form-wrapper">
+			<h1 class="form-heading">Predict Sales</h1>
+			<form class="form-container" action="{{ url_for('output') }}">
+				<input type="" name="" placeholder="Enter Store No" class="form-input"> <input type="" name="" placeholder="Enter Markdown Price1" class="form-input2"><br>
+				<input type="" name="" placeholder="Enter Department No" class="form-input"> <input type="" name="" placeholder="Enter Markdown Price2" class="form-input2"><br><br>
+				<input type="" name="" placeholder="Enter weekly Day" class="form-input"> <input type="" name="" placeholder="Enter Markdown Price3" class="form-input2"><br><br>
+				<input type="" name="" placeholder="Enter Fuel price" class="form-input"> <input type="" name="" placeholder="Enter Markdown Price4" class="form-input2"><br><br>
+				<input type="" name="" placeholder="Enter Temperature" class="form-input"> <input type="" name="" placeholder="Enter Markdown Price5" class="form-input2"><br><br>
+				<input type="" name="" placeholder="Enter Type Of Store" class="form-input"><input type="" name="" placeholder="Enter CPI" class="form-input2"><br><br>
+				<input type="" name="" placeholder="Enter UNEMPLOYMENT RATE" class="form-input"> <input type="" name="" placeholder="IS IT HOLIDAY?" class="form-input2"><br><br>
+				
+				<button class="btn-submit">Next</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
+{% endblock %}
